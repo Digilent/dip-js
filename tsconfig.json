@@ -1,0 +1,52 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": [
+            "es2015",
+            "dom"
+        ],
+        "noImplicitAny": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "declaration": true,
+        "outDir": "./dist"
+    },
+    "files": [
+        "src/data-types/waveform.ts",
+        "src/device/device-manager.ts",
+        "src/device/device.ts",
+        "src/device/instruments/awg/awg-channel.ts",
+        "src/device/instruments/awg/awg-instrument.ts",
+        "src/device/instruments/dc/dc-channel.ts",
+        "src/device/instruments/dc/dc-instrument.ts",
+        "src/device/instruments/gpio/gpio-instrument.ts",
+        "src/device/instruments/osc/osc-channel.ts",
+        "src/device/instruments/osc/osc-instrument.ts",
+        "src/device/instruments/la/la-channel.ts",
+        "src/device/instruments/la/la-instrument.ts",
+        "src/device/instruments/trigger/trigger-channel.ts",
+        "src/device/instruments/trigger/trigger-instrument.ts",
+        "src/device/instruments/logger/logger-command.ts",
+        "src/device/instruments/logger/logger-instrument.ts",
+        "src/device/instruments/logger/analog/logger-analog-channel.ts",
+        "src/device/instruments/logger/analog/logger-analog-instrument.ts",
+        "src/device/instruments/logger/digital/logger-digital-channel.ts",
+        "src/device/instruments/logger/digital/logger-digital-instrument.ts",
+        "src/simulated-device/simulated-device-helper.ts",
+        "src/simulated-device/simulated-device.ts",
+        "src/simulated-device/instruments/simulated-awg.ts",
+        "src/simulated-device/instruments/simulated-dc.ts",
+        "src/simulated-device/instruments/simulated-gpio.ts",
+        "src/simulated-device/instruments/simulated-la.ts",
+        "src/simulated-device/instruments/simulated-osc.ts",
+        "src/simulated-device/instruments/simulated-trigger.ts",
+        "src/transport/transport-container.ts",
+        "src/transport/local-transport.ts",
+        "src/transport/http-transport.ts",
+        "src/transport/generic-transport.ts",
+        "src/utilities/command-utility.ts"    
+    ]
+}
