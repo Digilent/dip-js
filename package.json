@@ -1,5 +1,5 @@
 {
-    "name": "dip-js",
+    "name": "@digilent/dip-js",
     "version": "0.0.1",
     "description": "Digilent Instrument Protocol JavaScript Module",
     "main": "index.js",
