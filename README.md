@@ -4,41 +4,11 @@ Digilent Instrumentation Protocol JavaScript Module
 # Protocol Documentation
 [Digilent Instrumentation Protocol Documentation](https://reference.digilentinc.com/reference/software/digilent-instrumentation-protocol/protocol)
 
-## Setting Up
+## Installing
 
-### Install dip-js
 ```
-npm install dip-js --save
+npm install @digilent/dip-js --save
 ```
-
-### Setup App @NgModule
-```TypeScript
-import { NgModule, ErrorHandler } from '@angular/core';
-import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-import { MyApp } from './app.component';
-import { HelloIonicPage } from '../pages/hello-ionic/hello-ionic';
- 
-//Digilent Instrument Protocol and Digilent Chart
-import { DeviceManager } from 'dip-angular2/services';
- 
-@NgModule({
-  declarations: [
-    MyApp,
-    HelloIonicPage
-  ],
-  imports: [
-    IonicModule.forRoot(MyApp)
-  ],
-  bootstrap: [IonicApp],
-  entryComponents: [
-    MyApp,
-    HelloIonicPage
-  ],
-  providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}, DeviceManager]
-})
-export class AppModule {}
-```
-
 ## Usage
 
 ### Basic Usage
