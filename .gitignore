@@ -5,6 +5,7 @@ jspm_packages
 lib
 build
 /dist
+docs
 *.metadata.json
 *.js.map
 *.component.js
