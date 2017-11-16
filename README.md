@@ -19,11 +19,12 @@ import { Component } from '@angular/core';
 import { DeviceManager, Device } from '@digilent/dip-js';
 
 export class MyApp {
+    public deviceManager: DeviceManager;
     public myDevice: Device;
     public deviceUri: string = 'http://192.168.1.8';
 
-    constructor(public deviceManager: DeviceManager) {
- 
+    constructor() {
+        this.deviceManager = new DeviceManager();
     }
 }
 ```
