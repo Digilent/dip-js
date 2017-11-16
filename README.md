@@ -15,7 +15,6 @@ npm install @digilent/dip-js --save
 Functionality provided by the DeviceManager. Import the Device type from @digilent/dip-js as well.
 
 ```TypeScript
-import { Component } from '@angular/core';
 import { DeviceManager, Device } from '@digilent/dip-js';
 
 export class MyApp {
