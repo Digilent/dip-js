@@ -11,8 +11,6 @@ npm install @digilent/dip-js --save
 ```
 ## Usage
 
-### Basic Usage
-
 #### Create An Instance Of The DeviceManager
 Functionality provided by the DeviceManager. Import the Device type from @digilent/dip-js as well.
 
