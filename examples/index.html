@@ -17,7 +17,13 @@
 <body>
     <script src="../bundle/dip-js.js"></script>
     <script>
-        function init() { }
+        function init() {
+            var deviceManager = new DeviceManager();
+            console.log(deviceManager);
+            //Call deviceManager.connect(ipAddress).subscribe(onSuccess, onErr, onComplete); to connect to a device
+            //Device instances can be access by: var device = deviceManager.devices[deviceManager.activeDeviceIndex];
+            //See README.md for an in-depth example
+        }
         window.onload = init();
     </script>
 </body>
